@@ -46,7 +46,7 @@ sapply(my_packages, function(x) {
 #    library(x, character.only = TRUE)
 #})
 
-source(paste('app/functions/', 'sourceDir.R', sep=''))
-sourceDir('app/functions/')
-connection <- local_db_conect('d7hms5v2sa89j')
-load_data(connection, schema = 'datasci_modeling')
+# source(paste('app/functions/', 'sourceDir.R', sep=''))
+# sourceDir('app/functions/')
+# connection <- local_db_conect('d7hms5v2sa89j')
+# load_data(connection, schema = 'datasci_modeling')
