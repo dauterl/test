@@ -14,7 +14,6 @@ install_if_missing = function(p) {
   }
 }
 
-# TODO add invisible to both vvvvvv
 sapply(my_packages, install_if_missing)
 
 
