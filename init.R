@@ -1,31 +1,32 @@
 #Group packages into bundles
-my_packages <- c("plyr"
-            ,"dplyr" 
-            ,"reshape2"
-            ,"base64enc"
-            ,"base64url"
-            ,"devtools"
-            ,"jsonlite"
-            ,"parallel"
-            ,"lubridate"
-            ,"svMisc"
-            ,"knitr"
-            ,"tidyr"
-            ,"stats"
-            ,"httr" 
-            ,"NLP"
-            ,"SnowballC"
-            ,"glmnet"
-            ,"mfp"
-            ,"randomForest"       
-             , "caret"
+my_packages <- c(
+            # "plyr"
+            # ,"dplyr" 
+            # ,"reshape2"
+            # ,"base64enc"
+            # ,"base64url"
+            # ,"devtools"
+            # ,"jsonlite"
+            # ,"parallel"
+            # ,"lubridate"
+            # ,"svMisc"
+            # ,"knitr"
+            # ,"tidyr"
+            # ,"stats"
+            # ,"httr" 
+            # ,"NLP"
+            # ,"SnowballC"
+            # ,"glmnet"
+            # ,"mfp"
+            # ,"randomForest"       
+            # , "caret"
+            # ,"FactoMineR"
+            "text2vec"
             )
 
-            # , "FactoMineR"
-            # ,"text2vec"
-
             # ,"RPostgreSQL"
-            #,"tm"     
+            #,"tm"
+                 
 #my_github_packages <- c('bmschmidt/wordVectors', 'rstudio/tensorflow')
 
 install_if_missing = function(p) {
@@ -55,7 +56,5 @@ sapply(my_packages, install_if_missing)
 
 
 
-
-#libxml2-dev
 
 
