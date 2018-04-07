@@ -1,16 +1,15 @@
 #Group packages into bundles
 my_packages <- c("plyr"
             ,"dplyr" 
-#            ,"RPostgreSQL"
-#            ,"reshape2"
-            # ,"base64enc"
-            # ,"base64url"
-            # ,"devtools"
-            # ,"jsonlite"
-            # ,"parallel"
-            # ,"lubridate"
-            # ,"svMisc"
-            # ,"knitr"
+            ,"reshape2"
+            ,"base64enc"
+            ,"base64url"
+            ,"devtools"
+            ,"jsonlite"
+            ,"parallel"
+            ,"lubridate"
+            ,"svMisc"
+            ,"knitr"
             # ,"tidyr"
             # ,"stats"
             # ,"httr" 
@@ -25,14 +24,15 @@ my_packages <- c("plyr"
 #            , "caret"
             )
 
+            # ,"RPostgreSQL"
+
 #my_github_packages <- c('bmschmidt/wordVectors', 'rstudio/tensorflow')
 
 install_if_missing = function(p) {
   print(paste("installing", p))
-  print(rownames(installed.packages()))
 
   if (p %in% rownames(installed.packages()) == FALSE) {
-    install.packages(p)
+    install.package(p)
   }
 }
 
