@@ -1,7 +1,7 @@
 #Group packages into bundles
 my_packages <- c("plyr"
             ,"dplyr" 
-            ,"RPostgreSQL"
+#            ,"RPostgreSQL"
 #            ,"reshape2"
             # ,"base64enc"
             # ,"base64url"
