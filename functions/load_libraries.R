@@ -14,6 +14,8 @@ load_libraries <- function(func_dir, include_bundles = 'all', exclude_bundles = 
               )
 
   productivity <- c("stats")
+  
+  network <- c()
 
   text <- c("tm"
             ,"text2vec"
