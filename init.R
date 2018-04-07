@@ -1,6 +1,8 @@
 #Group packages into bundles
 my_packages <- c(
              "plyr"
+             ,"RPostgreSQL"
+             ,"tm"             
             # ,"dplyr" 
             # ,"reshape2"
             # ,"base64enc"
@@ -23,8 +25,7 @@ my_packages <- c(
             # ,"text2vec"
             )
 
-            # ,"RPostgreSQL"
-            #,"tm"
+
 
 #my_github_packages <- c('bmschmidt/wordVectors', 'rstudio/tensorflow')
 
