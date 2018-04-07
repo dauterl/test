@@ -17,16 +17,15 @@ my_packages <- c("plyr"
             ,"SnowballC"
             ,"glmnet"
             ,"mfp"
-            ,"randomForest"
-            ,"tm"            
+            ,"randomForest"       
+             , "caret"
             )
 
-            # , "caret"
             # , "FactoMineR"
             # ,"text2vec"
 
             # ,"RPostgreSQL"
-
+            #,"tm"     
 #my_github_packages <- c('bmschmidt/wordVectors', 'rstudio/tensorflow')
 
 install_if_missing = function(p) {
@@ -53,3 +52,10 @@ sapply(my_packages, install_if_missing)
 # sourceDir('app/functions/')
 # connection <- local_db_conect('d7hms5v2sa89j')
 # load_data(connection, schema = 'datasci_modeling')
+
+
+
+
+#libxml2-dev
+
+
