@@ -32,7 +32,7 @@ install_if_missing = function(p) {
   print(paste("installing", p))
 
   if (p %in% rownames(installed.packages()) == FALSE) {
-    install.package(p)
+    install.packages(p)
   }
 }
 
