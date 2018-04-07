@@ -1,3 +1,1 @@
-libpq-dev
-postgresql-client
-libxml2-dev
+libssl
