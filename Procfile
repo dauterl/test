@@ -1,1 +1,1 @@
-rserve: R CMD Rserve --RS-conf app/Rserv.conf
+web: R CMD Rserve --RS-conf app/Rserv.conf
